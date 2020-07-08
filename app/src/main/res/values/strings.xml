@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Chat</string>
+
+    <!-- Label for dropdown menu_chat option if the pet is male [CHAR LIMIT=20] -->
+    <string name="gender_male">male</string>
+
+    <!-- Label for dropdown menu_chat option if the pet is female [CHAR LIMIT=20] -->
+    <string name="gender_female">female</string>
+
+    <string name="gender_any">any</string>
+
+    <string name="welcome_text">You must be 18+ to start random chat with strangers.\nDon\'t share any personal information or contacts, don\'t send any money to strangers. Enjoy the Random Chat!</string>
+
+    <string name="title_activity_main">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Chat</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+</resources>

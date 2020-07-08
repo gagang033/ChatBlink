@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RoomsList">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+
+        <RadioButton
+            android:id="@+id/hindi_chat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hindi Chat"
+            android:textSize="25dp"
+            android:textColor="@color/colorAccent"
+            android:textAllCaps="false" />
+
+        <TextView
+            android:id="@+id/hindi_chat_no"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="20dp"
+            android:paddingLeft="10dp"
+            android:textColor="@color/colorAccent" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+
+        <RadioButton
+            android:id="@+id/gamers_room"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gamers Room"
+            android:textSize="25dp"
+            android:textColor="@color/colorAccent"
+            android:textAllCaps="false" />
+
+        <TextView
+            android:id="@+id/gamers_room_no"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="20dp"
+            android:paddingLeft="10dp"
+            android:textColor="@color/colorAccent" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+
+        <RadioButton
+            android:id="@+id/adult_only"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Adult Only"
+            android:textSize="25dp"
+            android:textColor="@color/colorAccent"
+            android:textAllCaps="false"/>
+
+        <TextView
+            android:id="@+id/adult_only_no"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="20dp"
+            android:paddingLeft="10dp"
+            android:textColor="@color/colorAccent" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="2"
+            android:id="@+id/username_rooms"
+            android:inputType="textCapWords"
+            android:hint="Enter username"
+            android:backgroundTint="#008000"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ENTER"
+            android:id="@+id/enter_rooms"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:backgroundTint="#32CD32"
+            android:textColor="#FFFFFF"/>
+
+    </LinearLayout>
+
+</LinearLayout>
